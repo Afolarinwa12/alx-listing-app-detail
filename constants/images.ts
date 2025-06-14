@@ -1,0 +1,1 @@
+export const HERO_BACKGROUND_IMAGE = '/hero.jpg';
