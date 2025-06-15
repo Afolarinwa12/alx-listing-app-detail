@@ -3,6 +3,7 @@ import Image from 'next/image'; // Import Next.js Image component for optimizati
 import Layout from '../components/layout/Layout';
 import Pill from '../components/Pill';
 import { HERO_BACKGROUND_IMAGE } from '../constants/images'; // Import your background image constant
+import PropertyPage from './property/[id]';
 
 // --- Sample Data ---
 // In a real application, PROPERTY_LISTING_SAMPLE would likely come from an API or a separate data file.
@@ -150,6 +151,7 @@ const HomePage: React.FC = () => {
           ))}
         </div>
       </section>
+      <PropertyPage />
     </>
   );
 };
